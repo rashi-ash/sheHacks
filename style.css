@@ -75,4 +75,24 @@ body, html {
   background-size: cover;
   background-position: 50% 50%;
 }
-
+@media(max-width:700px){
+    .lay{
+        flex-direction: column;
+    } 
+    .n2{
+        margin-top: 20px;
+        font-family: 'Amatic SC', cursive;
+        color: #D05E8F;
+        font-size: 50px;
+         margin-bottom: 1px;
+         padding: 0px 0px;
+    }
+    .n1{
+        font-family: 'Amatic SC', cursive;
+        color: #BD7D9F;
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 1px;
+        padding: 0px 0px;
+    }
+}
